@@ -8,7 +8,8 @@ import {
 const initialState = {
     posts: [],
     isLoading: false,
-    error: null
+    error: null,
+    projects = []
 }
 
 export const reducer = (state = initialState, action) => {

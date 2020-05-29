@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-const Projects = () => {
+const NewProject = props => {
     return(
         <>
         </>
@@ -9,12 +9,12 @@ const Projects = () => {
 }
 
 const mapStateToProps = state => {
-    return {
+    return{
         isLoading: state.isLoading,
+        posts: state.posts,
         error: state.error,
-        projects: state.projects,
-        posts: state.posts
+        projects: state.projects
     }
 }
 
-export default connect(mapStateToProps, {})(Projects) 
+export default connect(mapStateToProps, {})(NewProject)
