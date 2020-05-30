@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Switch>  
         <PrivateRoute path='/newproject' component={NewProject} /> 
-        <PrivateRoute path='/newpost' component={NewPost} />
-        <Route path='/blog' component={Blog} />
+        {/* <PrivateRoute path='/newpost' component={NewPost} /> */}
+        {/* <Route path='/blog' component={Blog} /> */}
         <Route path='/projects' component={Projects} />
         <Route path='/' component={Welcome} />
       </Switch>

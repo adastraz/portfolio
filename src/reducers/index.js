@@ -9,7 +9,7 @@ const initialState = {
     posts: [],
     isLoading: false,
     error: null,
-    projects = []
+    projects: []
 }
 
 export const reducer = (state = initialState, action) => {
