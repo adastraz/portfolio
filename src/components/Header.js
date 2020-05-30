@@ -43,6 +43,9 @@ const Header = () => {
                     </Link> */}
                 </div>
             </FlexDiv>
+            <div className='title'>
+                <h2>Hi, I'm Tyler!</h2>
+            </div>
         </> 
     )
 }

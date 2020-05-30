@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 .active{
     color: #0C1B33;
     text-shadow: none;
@@ -7,8 +9,9 @@ a{
     text-decoration: none;
     color: #FFC857;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22.5px;
     text-shadow: -1px -1px 0 #0C1B33, 1px -1px 0 #0C1B33, -1px 1px 0 #0C1B33, 1px 1px 0 #0C1B33;
+    font-family: 'Dancing Script', cursive;
 }
 
 .links {
@@ -34,8 +37,18 @@ a{
     font-weight: bold;
     text-shadow: -1px -1px 0 #0C1B33, 1px -1px 0 #0C1B33, -1px 1px 0 #0C1B33, 1px 1px 0 #0C1B33;
     width: 100px;
-    /* border-radius: 50px; */
     text-align: center;
-    /* background-color:#FFC; */
-    /* border: 5px solid #B1E5F2 */
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -300px;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    color: #4B3F72;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #FFC857, 1px -1px 0 #FFC, -1px 1px 0 #FFC, 1px 1px 0 #FFC857;
 }
