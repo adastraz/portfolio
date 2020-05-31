@@ -44,7 +44,10 @@ const Header = () => {
                 </div>
             </FlexDiv>
             <div className='title'>
-                <h2>Hi, I'm Tyler!</h2>
+                <h2>{
+                    location.pathname == '/' ? "Hi, I'm Tyler!" : '' || 
+                    location.pathname =='/projects' ? 'Projects' : ''|| 
+                    location.pathname =='/blog' ? 'Blog' : ''}</h2>
             </div>
         </> 
     )
