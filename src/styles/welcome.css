@@ -1,0 +1,103 @@
+.logo{
+    width:240px;
+    height: 230px;
+    margin: -50px 50px 0 50px;
+}
+
+.slack{
+    width: 275px;
+    height: 190px
+}
+
+.express{
+    height: 180px
+}
+
+.logodiv{
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+.first{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 200px 125px 200px;
+}
+.second{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 125px 200px;
+}
+
+.ptag{
+    width: 30%;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.one{
+    border-top: dotted 15px #B1E5F2;
+    border-bottom: dotted 15px #0C1B33
+}
+
+.two{
+    border-top: dotted 15px #0C1B33;
+    border-bottom: dotted 15px #B1E5F2
+}
+
+
+@media screen and (max-width: 1300px){
+    .logo{
+        width: 180px;
+        height: 200px;
+        text-align:center;
+    }
+    .express{
+        height: 160px;
+    }
+    .git{
+        width: 210px;
+        height: 180px;
+    }
+    .first{
+        margin: 100px 60px;
+        justify-content: space-between;
+    }
+    .ptag{
+        width: 45%;
+
+    }
+}
+
+@media screen and (max-width: 1075px){
+    .logo{
+        width: 140px;
+        height: 140px;
+    }
+    .express{
+        height: 120px;
+    }
+    .git{
+        width: 210px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .logo{
+        width: 15%;
+        height: 15%;
+        margin: -70px 25px 0 25px;
+    }
+    .express{
+        height: 13%;
+    }
+    .git{
+        width: 210px;
+        height: 180px;
+    }
+}

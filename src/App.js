@@ -7,6 +7,7 @@ import NewPost from './components/NewPost.js'
 import Welcome from './components/Welcome.js'
 import Projects from './components/Projects.js'
 import NewProject from './components/NewProject.js'
+import Footer from './components/Footer.js'
 
 function App() {
   return (
@@ -15,10 +16,11 @@ function App() {
       <Switch>  
         <PrivateRoute path='/newproject' component={NewProject} /> 
         {/* <PrivateRoute path='/newpost' component={NewPost} /> */}
-        {/* <Route path='/blog' component={Blog} /> */}
+        <Route path='/blog' component={Blog} />
         <Route path='/projects' component={Projects} />
         <Route path='/' component={Welcome} />
       </Switch>
+      <Footer />
     </Router>
   )
 }
