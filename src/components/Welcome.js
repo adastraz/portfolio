@@ -18,10 +18,22 @@ const Welcome = () => {
     return(
         <>
             <div className='logodiv'>
-                <img className='logo' src={Postgresql} />
-                <img className='logo express' src={Express} />
-                <img className='logo' src={ReactLogo} />
-                <img className='logo' src={NodeJS} />
+                <img 
+                    className='logo' src={Postgresql} 
+                    onClick={()=> redirectFunc('https://www.postgresql.org/about/')}
+                />
+                <img 
+                    className='logo express' src={Express} 
+                    onClick={()=> redirectFunc('https://expressjs.com/')}
+                />
+                <img 
+                    className='logo' src={ReactLogo}
+                    onClick={()=> redirectFunc('https://reactjs.org/')}
+                />
+                <img 
+                    className='logo' src={NodeJS} 
+                    onClick={()=> redirectFunc('https://nodejs.org/en/about/')}
+                />
             </div>
             <div className='first'>
                 <div className='ptag one'>
@@ -33,10 +45,16 @@ const Welcome = () => {
             </div>
             <div className='second'>
                 <div>
-                    <img className='logo slack' src={Slack} />
+                    <img 
+                        className='logo slack' src={Slack} 
+                        onClick={()=> redirectFunc('https://slack.com/')}
+                    />
                 </div>
                 <div>
-                    <img className='logo' src={Redux} />
+                    <img 
+                        className='logo' src={Redux} 
+                        onClick={()=> redirectFunc('https://redux.js.org/')}
+                    />
                 </div>
             </div>
             <div className='second'>
@@ -44,7 +62,10 @@ const Welcome = () => {
                     <p>8 months ago I made the decision not to go back to college, but to become a student at Lambda School to learn full-stack web development. Along the way, I have found my passion.</p>
                 </div>
                 <div>
-                    <img className='logo git' src={Git} />
+                    <img 
+                        className='logo git' src={Git} 
+                        onClick={()=> redirectFunc('https://git-scm.com/')}
+                    />
                 </div>
             </div>
         </>
