@@ -25,4 +25,9 @@
 .txt{
     color: #B1E5F2;
     text-align:center;
+    cursor: pointer;
+}
+.footfoot{
+    color: #B1E5F2;
+    text-align:center;
 }

@@ -23,7 +23,7 @@ const Footer = () => {
                     </h3>
                     <h3 className='txt' onClick={() => mailTo()}>contact me</h3>
                 </div>
-                <p className='txt'>© 2020 Tyler Thompson. All rights reserved.</p>
+                <p className='footfoot'>© 2020 Tyler Thompson. All rights reserved.</p>
             </div>
         </>
     )
