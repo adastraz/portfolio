@@ -9,7 +9,6 @@ const initialState = {
     posts: [],
     isLoading: false,
     error: null,
-    projects: []
 }
 
 export const reducer = (state = initialState, action) => {
