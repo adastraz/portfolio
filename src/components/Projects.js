@@ -20,7 +20,7 @@ const Projects = () => {
                     </p>
                     <div className='codeStuff'>
                         <p 
-                            className='codebuttons'
+                            className='codebuttons application'
                             onClick={() => redirectFunc('https://master.d3bnlq4xzoa0gr.amplifyapp.com/')}
                         >
                             Application
@@ -44,7 +44,7 @@ const Projects = () => {
                     <p>This project put a twist on the job search. Droom is a Tinder-like tool in order to view posted jobs. There is no real functionality for matching, but all CRUD operations are present in this application. Droom has the capability of creating two seperate user types, an employee (looking for a job) or an employer. Based on which type of user you are, when you are all registered you will see a list of users of the opposite user type. A team member and I were responsible for all state management, along with CRUD operations taken place within the application.</p>
                     <div className='codeStuff'>
                         <p 
-                            className='codebuttons'
+                            className='codebuttons application'
                             onClick={() => redirectFunc('https://boring-ardinghelli-c591c1.netlify.app/')}
                         >
                             Application

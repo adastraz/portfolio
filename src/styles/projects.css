@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Yellowtail&display=swap');
 .projects{
     display: flex;
     justify-content: space-around;
@@ -8,7 +9,7 @@
 .proj{
     width: 40%;
     text-align: center;
-    background: radial-gradient(circle, rgba(177,229,242,1) 36%, rgba(160,208,223,1) 41%, rgba(160,208,223,1) 49%, rgba(160,208,223,1) 52%, rgba(12,27,51,1) 88%);
+    background: radial-gradient(circle, rgba(12,27,51,1) 38%, rgba(22,40,63,1) 51%, rgba(86,119,138,1) 67%, rgba(32,53,75,1) 67%, rgba(177,229,242,1) 72%, rgba(160,208,223,1) 83%, rgba(160,208,223,1) 92%, rgba(160,208,223,1) 97%, rgba(160,208,223,1) 98%);
     border-radius: 20px;
     padding: 3%;
     border: #B1E5F2 5px solid;
@@ -17,11 +18,11 @@
 
 .titlez{
     font-weight: bold;
-    font-family: 'Dancing Script';
-    color: #4B3F72;
+    font-family: 'Permanent Marker', cursive;
+    color: #FFC857;
     font-size: 36px;
-    font-weight: bold;
-    text-shadow: -1px -1px 0 #FFC857, 1px -1px 0 #FFC, -1px 1px 0 #FFC, 1px 1px 0 #FFC857;
+    /* font-weight: bold; */
+    text-shadow: -2px -2px 0 #4B3F72, 2px -2px 0 #6b5aa3, -2px 2px 0 #acadd1, 2px 2px 0 #4B3F72;
 }
 
 .hide{
@@ -29,6 +30,7 @@
 }
 .proj2{
     width: 100%;
+    border-radius: 25px
 }
 .schem{
     width: 50%
@@ -51,7 +53,11 @@
 
 .codebuttons:hover{
     color: #0C1B33;
-    background-color:#B1E5F2
+    /* background-color:#B1E5F2; */
+}
+
+.application:hover {
+    color: #FFC857
 }
 
 .code{
