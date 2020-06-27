@@ -8,6 +8,20 @@
 .proj{
     width: 40%;
     text-align: center;
+    background: radial-gradient(circle, rgba(75,63,114,0.9500175070028011) 29%, rgba(12,27,51,1) 88%);
+    border-radius: 20px;
+    padding: 3%;
+    border: #B1E5F2 5px solid;
+    color: white;
+}
+
+.titlez{
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    color: #B1E5F2;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #FFC857, 1px -1px 0 #FFC, -1px 1px 0 #FFC, 1px 1px 0 #FFC857;
 }
 
 .hide{
