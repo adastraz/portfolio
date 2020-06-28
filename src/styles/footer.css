@@ -15,8 +15,19 @@
 }
 
 .smallgit{
-    width: 20px;
-    border-radius: 75px
+    width: 30px;
+    border-radius: 75px;
+    height: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.linkedin{
+    width: 35px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .gh{

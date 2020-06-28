@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/footer.css'
 import Github from '../styles/github.png'
+import LinkedIn from '../styles/linkedin.png'
 
 const Footer = () => {
     const redirectFunc = link => {
@@ -14,13 +15,10 @@ const Footer = () => {
         <>
             <div className='footer'>
                 <div className='columnfoot'>
-                    <h3 
-                        className='txt' 
-                        onClick={() => redirectFunc('https://github.com/adastraz')}
-                    >
-                        <img className='smallgit' src={Github} />
-                        github
-                    </h3>
+                    
+                    <img className='smallgit' onClick={() => redirectFunc('https://github.com/adastraz')} src={Github} />
+                    <img className='linkedin' onClick={() => redirectFunc('https://github.com/adastraz')} src={LinkedIn} />
+                    
                     <h3 className='txt' onClick={() => mailTo()}>contact me</h3>
                 </div>
                 <p className='footfoot'>© 2020 Tyler Thompson. All rights reserved.</p>

@@ -26,6 +26,7 @@ a{
     width: 15%;
     margin: 30px 100px;
     border-radius: 75px;
+    cursor: pointer;
 }
 
 .title{
