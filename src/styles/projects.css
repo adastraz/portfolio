@@ -14,6 +14,10 @@
     padding: 3%;
     border: #B1E5F2 5px solid;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titlez{
@@ -30,7 +34,13 @@
 }
 .proj2{
     width: 100%;
-    border-radius: 25px
+    border-radius: 25px;
+    height: 40%
+}
+
+.blockt{
+    width: 75%;
+    text-align: center
 }
 .schem{
     width: 50%
@@ -48,7 +58,8 @@
     border-radius: 25px;
     width: 120px;
     font-weight: bold;
-    border: solid 4px #B1E5F2
+    border: solid 4px #B1E5F2;
+    margin: 30px 
 }
 
 .codebuttons:hover{
