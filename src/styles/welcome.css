@@ -2,6 +2,7 @@
     width:240px;
     height: 230px;
     margin: -50px 50px 0 50px;
+    cursor: pointer;
 }
 
 .slack{
@@ -69,7 +70,10 @@
     }
     .ptag{
         width: 45%;
-
+    }
+    .slack{
+        width: 240px;
+        height: 160px
     }
 }
 
@@ -85,13 +89,23 @@
         width: 210px;
         height: 180px;
     }
+    .slack{
+        height: 100px;
+        width: 175px;
+    }
+    .first{
+        margin: 100px 100px 0 100px;
+    }
+    .second{
+        margin: 150px 100px 100px;
+    }
 }
 
 @media screen and (max-width: 890px){
     .logo{
         width: 15%;
         height: 15%;
-        margin: -70px 25px 0 25px;
+        margin: -70px 25px -20px 25px;
     }
     .express{
         height: 13%;
@@ -99,5 +113,13 @@
     .git{
         width: 210px;
         height: 180px;
+    }
+    .slack{
+        height: 100px;
+        width: 175px
+    }
+    .redux{
+        height: 120px;
+        width: 130px
     }
 }

@@ -52,7 +52,7 @@ const Welcome = () => {
                 </div>
                 <div>
                     <img 
-                        className='logo' src={Redux} 
+                        className='redux logo' src={Redux} 
                         onClick={()=> redirectFunc('https://redux.js.org/')}
                     />
                 </div>

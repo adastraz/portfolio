@@ -6,11 +6,17 @@ import Boy from '../styles/147682696_s.jpg'
 
 const Header = () => {
     const location = useLocation()
+
+    const redirectFunc = link => {
+        const win = window.open(link, '_blank')
+        win.focus()
+    }
+
     return(
         <>
             <FlexDiv>
                 <div className='name'>
-                    <img src={Boy} />
+                    <img src={Boy} onClick={() => redirectFunc('https://www.linkedin.com/in/tyler-thompson-461963124/')}/>
                 </div>
                 <div className='links'>
                     <Link to='/' 
