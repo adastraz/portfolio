@@ -7,7 +7,9 @@ export const FlexDiv = styled.div`
     font-size: 25px;
     background: #CECECE;
     padding-bottom: 280px;
+    padding-top: 75px;
     background-image: url(${Banner});
+    height: 50px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover

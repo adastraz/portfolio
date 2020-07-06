@@ -18,6 +18,9 @@ const Projects = () => {
                     <p>Team Size - 7 Members (1 UX, 1 iOS, 4 Web, 1 Product Manager)</p>
                     <p className='blockt'>This project was to allow for machine technicians a more modern way of documenting / annotating specific components of each machine. This product will go on to be a sort of 'portal' for Alloy Solution Technology to assign jobs (machines) to technicians. They are given a schematic and excel type spreadsheet of components known to be on the machine. Users are able to select images from Dropbox, to input those images into the shared Dropbox amongst employees for easy access later on. My team was in charge of bringing the codeset to be on par with the stakeholders vision, and allow for future teams to develop on top of our code to get the product production ready. 
                     </p>
+                    <p>Test User Information *subject to change*</p>
+                    <p>email : bob_johnson@lambdaschool.com
+                        password : testing123!</p>
                     <div className='codeStuff'>
                         <p 
                             className='codebuttons application'
