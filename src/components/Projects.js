@@ -28,7 +28,7 @@ const Projects = () => {
                     <div className='codeStuff'>
                         <p 
                             className='codebuttons application'
-                            onClick={() => redirectFunc('https://master.d3bnlq4xzoa0gr.amplifyapp.com/')}
+                            onClick={() => redirectFunc('https://master.d2k3j4ts424kuy.amplifyapp.com/')}
                         >
                             Application
                         </p>
@@ -41,7 +41,7 @@ const Projects = () => {
                     </div>
                     <img 
                         className='proj2 schemimg' src={Schematic} 
-                        onClick={() => redirectFunc('https://master.d3bnlq4xzoa0gr.amplifyapp.com/')}
+                        onClick={() => redirectFunc('https://master.d2k3j4ts424kuy.amplifyapp.com/')}
                         onMouseOver={e => (e.currentTarget.src='/static/media/screenshot.185.8aea9b49.png')}
                         onMouseOut={e => (e.currentTarget.src='/static/media/screenshot.170.62e89d16.png')}
                     />
@@ -54,7 +54,7 @@ const Projects = () => {
                     <div className='codeStuff'>
                         <p 
                             className='codebuttons application'
-                            onClick={() => redirectFunc('https://boring-ardinghelli-c591c1.netlify.app/')}
+                            onClick={() => redirectFunc('https://master.d1bur35z3z2y1d.amplifyapp.com/')}
                         >
                             Application
                         </p>
@@ -67,7 +67,7 @@ const Projects = () => {
                     </div>
                     <img 
                         className='proj2 droomimg' src={Droom} 
-                        onClick={() => redirectFunc('https://boring-ardinghelli-c591c1.netlify.app/')}
+                        onClick={() => redirectFunc('https://master.d1bur35z3z2y1d.amplifyapp.com/')}
                         onMouseOver={e => (e.currentTarget.src='/static/media/screenshot.187.d1894be3.png')}
                         onMouseOut={e => (e.currentTarget.src='static/media/screenshot.188.2c1c9b80.png')}
                     />
