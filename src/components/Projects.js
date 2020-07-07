@@ -16,14 +16,14 @@ const Projects = () => {
             <div className='projects'>
                 <div className='proj'>
                     <h2 className='titlez'>Schematic Capture</h2>
-                    <p>Production Time - 2 Months</p>
-                    <p>Team Size - 7 Members (1 UX, 1 iOS, 4 Web, 1 Product Manager)</p>
-                    <p className='blockt'>This project was to allow for machine technicians a more modern way of documenting / annotating specific components of each machine. This product will go on to be a sort of 'portal' for Alloy Solution Technology to assign jobs (machines) to technicians. They are given a schematic and excel type spreadsheet of components known to be on the machine. Users are able to select images from Dropbox, to input those images into the shared Dropbox amongst employees for easy access later on. My team was in charge of bringing the codeset to be on par with the stakeholders vision, and allow for future teams to develop on top of our code to get the product production ready. 
+                    <p className='imp'>Production Time - 2 Months</p>
+                    <p className='imp'>Team Size - 7 Members (1 UX, 1 iOS, 4 Web, 1 Product Manager)</p>
+                    <p className='blockt'>Schematic Capture was to allow for machine technicians a more modern way of documenting / annotating specific components of each machine. The product will go on to be a sort of 'portal' for Alloy Solution Technology to assign jobs (machines) to technicians. Technicians are given a schematic and excel type spreadsheet of components known to be on the machine. Technicians are able to select images from Dropbox, to input those images into the shared Dropbox amongst employees for easy access later on. My team was in charge of bringing the codeset to be on par with the stakeholders vision, and allow for future teams to develop on top of our code to get the product production ready. 
                     </p>
                     <div>
-                        <p className='none'>Test User Information *subject to change*</p>
-                        <p className='none'>email : bob_johnson@lambdaschool.com</p>
-                        <p className='none'>password : testing123!</p>
+                        <p className='none imp'>Test User Information *subject to change*</p>
+                        <p className='none imp'>email : bob_johnson@lambdaschool.com</p>
+                        <p className='none imp'>password : testing123!</p>
                     </div>
                     <div className='codeStuff'>
                         <p 
@@ -40,17 +40,17 @@ const Projects = () => {
                         </p>
                     </div>
                     <img 
-                        className='proj2 schemimg' src={Schematic} 
+                        className='proj2 schemimg' src={Schematic2} 
                         onClick={() => redirectFunc('https://master.d2k3j4ts424kuy.amplifyapp.com/')}
-                        onMouseOver={e => (e.currentTarget.src='/static/media/screenshot.185.8aea9b49.png')}
-                        onMouseOut={e => (e.currentTarget.src='/static/media/screenshot.170.62e89d16.png')}
+                        onMouseOver={e => (e.currentTarget.src='/static/media/screenshot.170.62e89d16.png')}
+                        onMouseOut={e => (e.currentTarget.src='/static/media/screenshot.185.8aea9b49.png')}
                     />
                 </div>
                 <div className='proj'>
                     <h2 className='titlez'>Droom</h2>
-                    <p>Production Time - 1 Week</p>
-                    <p>Team Size - 6 Members (5 Web, 1 Product Manager)</p>
-                    <p className='blockt'>This project put a twist on the job search. Droom is a Tinder-like tool in order to view posted jobs. There is no real functionality for matching, but all CRUD operations are present in this application. Droom has the capability of creating two seperate user types, an employee (looking for a job) or an employer. Based on which type of user you are, when you are all registered you will see a list of users of the opposite user type. A team member and I were responsible for all state management, along with CRUD operations taken place within the application.</p>
+                    <p className='imp'>Production Time - 1 Week</p>
+                    <p className='imp'>Team Size - 6 Members (5 Web, 1 Product Manager)</p>
+                    <p className='blockt'>Droom put a twist on the job search. Droom is a Tinder-like tool in order to view posted jobs. Unfortunately the team never got to the point where users and companies could match, but all CRUD operations are present in this application. Droom has the capability of creating two seperate user types, an employee (looking for a job) or an employer. Based on which type of user you are, when you are all registered you will see a list of users of the opposite user type. A team member and I were responsible for all state management, along with CRUD operations taken place within the application.</p>
                     <div className='codeStuff'>
                         <p 
                             className='codebuttons application'

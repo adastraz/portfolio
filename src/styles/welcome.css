@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 .logo{
     width:240px;
     height: 230px;
@@ -36,8 +38,10 @@
 
 .ptag{
     width: 30%;
-    font-size: 20px;
+    font-size: 23px;
     padding: 40px;
+    font-family: 'Dosis', sans-serif;
+    line-height:2;
 }
 
 .one{
