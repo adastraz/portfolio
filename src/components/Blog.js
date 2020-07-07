@@ -1,9 +1,11 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import '../styles/blog.css'
 
 const Blog = props => {
     return(
         <>
+            <h1>Work in Progress</h1>
         </>
     )
 }
