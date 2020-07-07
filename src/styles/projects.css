@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .projects{
     display: flex;
     justify-content: space-around;
@@ -9,7 +9,7 @@
 .proj{
     width: 40%;
     text-align: center;
-    background: radial-gradient(circle, rgba(12,27,51,1) 38%, rgba(22,40,63,1) 51%, rgba(86,119,138,1) 67%, rgba(32,53,75,1) 67%, rgba(177,229,242,1) 72%, rgba(160,208,223,1) 83%, rgba(160,208,223,1) 92%, rgba(160,208,223,1) 97%, rgba(160,208,223,1) 98%);
+    background: radial-gradient(circle, rgba(12,27,51,1) 38%, rgba(22,40,63,1) 51%, rgba(86,119,138,1) 67%, rgba(32,53,75,1) 82%, rgba(48,73,94,1) 94%, rgba(177,229,242,1) 96%, rgba(160,208,223,1) 97%, rgba(160,208,223,1) 97%, rgba(160,208,223,1) 98%, rgba(160,208,223,1) 100%);
     border-radius: 20px;
     padding: 3%;
     border: #B1E5F2 5px solid;
@@ -22,7 +22,7 @@
 
 .titlez{
     font-weight: bold;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Pacifico', cursive;
     color: #FFC857;
     font-size: 36px;
     /* font-weight: bold; */
@@ -80,7 +80,42 @@
     background-color: #FFC857
 }
 
+.none{
+    margin:0;
+    padding:0;
+}
+
 .proj2:hover + .hide{
     display: block;
     color: red
+}
+
+.schemimg:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+    padding:2px
+}
+
+.droomimg:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
