@@ -57,7 +57,7 @@
 }
 .codebuttons{
     cursor: pointer;
-    font-size:20px;
+    font-size:15px;
     background-color: #0C1B33;
     color: #B1E5F2;
     padding: 10px;
@@ -65,7 +65,8 @@
     width: 120px;
     font-weight: bold;
     border: solid 4px #B1E5F2;
-    margin: 30px 
+    margin: 30px ;
+    font-family: 'Dosis', sans-serif;
 }
 
 .codebuttons:hover{
