@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 .active{
-    color: #0C1B33;
-    text-shadow: none;
+    color: #FFC857;
+    text-shadow: -1px -1px 0 #0C1B33, 1px -1px 0 #0C1B33, -1px 1px 0 #0C1B33, 1px 1px 0 #0C1B33;
 }
 
 a{
     text-decoration: none;
-    color: #FFC857;
+    color: #0C1B33;
     font-weight: bold;
     font-size: 22.5px;
-    text-shadow: -1px -1px 0 #0C1B33, 1px -1px 0 #0C1B33, -1px 1px 0 #0C1B33, 1px 1px 0 #0C1B33;
+    
     font-family: 'Dancing Script', cursive;
 }
 
@@ -24,7 +24,7 @@ a{
 }
 .name img{
     width: 15%;
-    margin: 30px 100px;
+    margin: 0px 100px;
     border-radius: 75px;
     cursor: pointer;
 }
