@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+
 .projects{
     display: flex;
     justify-content: space-around;
@@ -41,7 +44,9 @@
 
 .blockt{
     width: 75%;
-    text-align: center
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:20px
 }
 .schem{
     width: 50%
@@ -56,7 +61,7 @@
     background-color: #0C1B33;
     color: #B1E5F2;
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 10px;
     width: 120px;
     font-weight: bold;
     border: solid 4px #B1E5F2;
@@ -65,6 +70,7 @@
 
 .codebuttons:hover{
     color: #0C1B33;
+    border: solid 4px #FFC857;
     /* background-color:#B1E5F2; */
 }
 
@@ -73,16 +79,17 @@
 }
 
 .code{
-    color: #FFC857
+    color: #B1E5F2
 }
 .code:hover{
-    color: #0C1B33;
-    background-color: #FFC857
+    color: #FFC857;
+    border: solid 4px #FFC857;
 }
 
 .none{
     margin:0;
     padding:0;
+    line-height:1.6;
 }
 
 .proj2:hover + .hide{
@@ -90,11 +97,22 @@
     color: red
 }
 
+.imp{
+    font-family: 'Dosis', sans-serif;
+}
+
+.schemimg{
+    max-height: 400px;
+}
+
+.droomimg{
+    max-height: 400px;
+}
+
 .schemimg:hover{
     opacity: 1;
 	-webkit-animation: flash 1.5s;
     animation: flash 1.5s;
-    padding:2px
 }
 
 .droomimg:hover{
