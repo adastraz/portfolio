@@ -60,7 +60,7 @@ const Projects = () => {
                         </p>
                         <p 
                             className='codebuttons code'
-                            onClick={() => redirectFunc('https://github.com/Droom3/Front-End')}
+                            onClick={() => redirectFunc('https://github.com/adastraz/droom')}
                         >
                             Code
                         </p>
