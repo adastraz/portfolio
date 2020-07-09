@@ -43,3 +43,15 @@
     color: #B1E5F2;
     text-align:center;
 }
+
+@media screen and (max-width: 890px){
+    .columnfoot{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .columnfoot{
+        width: 65%
+    }
+}
