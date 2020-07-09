@@ -57,7 +57,7 @@ const Welcome = () => {
                     />
                 </div>
             </div>
-            <div className='second'>
+            <div className='second secblock'>
                 <div className='ptag two'>
                     <p>8 months ago I made the decision not to go back to college, but to become a student at Lambda School to learn full-stack web development. Along the way, I have found my passion.</p>
                 </div>
