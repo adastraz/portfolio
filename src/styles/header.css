@@ -56,3 +56,27 @@ a{
         top:-250px
     }
 }
+
+@media screen and (max-width: 890px){
+    .links{
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 700px){
+    .links{
+        width: 150%
+    }
+    .name img{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .links{
+        width: 225%
+    }
+    .name img{
+        width: 27.5%;
+    }
+}
