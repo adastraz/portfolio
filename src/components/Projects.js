@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/projects.css'
-import Droom from '../styles/screenshot.188.png'
-import Droom2 from '../styles/screenshot.187.png'
-import Schematic from '../styles/screenshot.170.png'
-import Schematic2 from '../styles/screenshot.185.png'
+import Droom from '../styles/pictures/screenshot.188.png'
+import Droom2 from '../styles/pictures/screenshot.187.png'
+import Schematic from '../styles/pictures/screenshot.170.png'
+import Schematic2 from '../styles/pictures/screenshot.185.png'
 
 const Projects = () => {
     const redirectFunc = link => {
@@ -76,7 +76,5 @@ const Projects = () => {
         </>
     )
 }
-
-
 
 export default Projects

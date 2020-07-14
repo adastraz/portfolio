@@ -1,16 +1,18 @@
 import React from 'react'
 import '../styles/footer.css'
-import Github from '../styles/github.png'
-import LinkedIn from '../styles/linkedin.png'
+import Github from '../styles/pictures/github.png'
+import LinkedIn from '../styles/pictures/linkedin.png'
 
 const Footer = () => {
     const redirectFunc = link => {
         const win = window.open(link, '_blank')
         win.focus()
     }
+
     const mailTo = () => {
         window.open("mailto:tylergosox@gmail.com")
     }
+
     return (
         <>
             <div className='footer'>

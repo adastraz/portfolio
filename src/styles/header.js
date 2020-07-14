@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Banner from '../styles/67766742_s.jpg'
+import Banner from '../styles/pictures/67766742_s.jpg'
 
 export const FlexDiv = styled.div`
     display: flex;

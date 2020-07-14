@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FlexDiv } from '../styles/header.js'
 import '../styles/header.css'
-import Boy from '../styles/147682696_s.jpg'
+import Boy from '../styles/pictures/147682696_s.jpg'
 
 const Header = () => {
     const location = useLocation()

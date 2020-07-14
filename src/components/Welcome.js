@@ -1,13 +1,13 @@
 import React from 'react'
-import Postgresql from '../styles/postgresql.jpg'
-import Express from '../styles/express.jpg'
-import ReactLogo from '../styles/react.png'
-import NodeJS from '../styles/node.jpg'
+import Postgresql from '../styles/pictures/postgresql.jpg'
+import Express from '../styles/pictures/express.jpg'
+import ReactLogo from '../styles/pictures/react.png'
+import NodeJS from '../styles/pictures/node.jpg'
 import '../styles/welcome.css'
-import Git from '../styles/git.png'
-import Github from '../styles/github.png'
-import Slack from '../styles/slack.png'
-import Redux from '../styles/redux.png'
+import Git from '../styles/pictures/git.png'
+import Github from '../styles/pictures/github.png'
+import Slack from '../styles/pictures/slack.png'
+import Redux from '../styles/pictures/redux.png'
 
 const Welcome = () => {
     const redirectFunc = link => {
