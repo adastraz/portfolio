@@ -31,7 +31,7 @@ const Welcome = () => {
                     onClick={()=> redirectFunc('https://reactjs.org/')}
                 />
                 <img 
-                    className='logo' src={NodeJS} 
+                    className='logo node' src={NodeJS} 
                     onClick={()=> redirectFunc('https://nodejs.org/en/about/')}
                 />
             </div>

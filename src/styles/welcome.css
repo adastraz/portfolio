@@ -103,6 +103,9 @@
     .second{
         margin: 150px 100px 100px;
     }
+    .node{
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 890px){
@@ -149,5 +152,16 @@
 @media screen and (max-width: 600px){
     .ptag{
         width: 97.5%
+    }
+}
+
+@media screen and (max-width: 455px){
+    .first{
+        margin: 75px 50px
+    }
+    .ptag{
+        width: 100%;
+        padding: 40px 5px;
+        font-size: 22px
     }
 }
