@@ -161,3 +161,28 @@
     }
     
 }
+
+@media screen and (max-width: 550px){
+    .codebuttons{
+        margin: 25px 10px;
+        width: 125px;
+    }
+    .proj{
+        width: 85%;
+    }
+    .blockt{
+        width: 95%;
+        font-size: 17px;
+        line-height: 1.6
+    }
+}
+
+@media screen and (max-width: 400px){
+    .codebuttons{
+        width:90px;
+    }
+    .blockt{
+        font-size: 15px;
+        line-height: 1.75
+    }
+}
