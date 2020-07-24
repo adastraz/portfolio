@@ -19,19 +19,19 @@ const Welcome = () => {
         <>
             <div className='logodiv'>
                 <img 
-                    className='logo' src={Postgresql} 
+                    className='logo' src={Postgresql} alt='PostgreSQL image'
                     onClick={()=> redirectFunc('https://www.postgresql.org/about/')}
                 />
                 <img 
-                    className='logo express' src={Express} 
+                    className='logo express' src={Express} alt='Express.js image'
                     onClick={()=> redirectFunc('https://expressjs.com/')}
                 />
                 <img 
-                    className='logo' src={ReactLogo}
+                    className='logo' src={ReactLogo} alt='React image'
                     onClick={()=> redirectFunc('https://reactjs.org/')}
                 />
                 <img 
-                    className='logo node' src={NodeJS} 
+                    className='logo node' src={NodeJS} alt='Node.js image'
                     onClick={()=> redirectFunc('https://nodejs.org/en/about/')}
                 />
             </div>
@@ -40,19 +40,19 @@ const Welcome = () => {
                     <p>I am a developer that is open to new oppertunities, currently based in the east coast. I have experience in product management, and agile team environments.</p>
                 </div>
                 <div onClick={() => redirectFunc('https://github.com/adastraz')}>
-                    <img className='logo git' src={Github} />
+                    <img className='logo git' src={Github} alt='Github image'/>
                 </div>
             </div>
             <div className='second'>
                 <div>
                     <img 
-                        className='logo slack' src={Slack} 
+                        className='logo slack' src={Slack} alt='Slack image'
                         onClick={()=> redirectFunc('https://slack.com/')}
                     />
                 </div>
                 <div>
                     <img 
-                        className='redux logo' src={Redux} 
+                        className='redux logo' src={Redux} alt='Redux image'
                         onClick={()=> redirectFunc('https://redux.js.org/')}
                     />
                 </div>
@@ -63,7 +63,7 @@ const Welcome = () => {
                 </div>
                 <div>
                     <img 
-                        className='logo git' src={Git} 
+                        className='logo git' src={Git} alt='Git image'
                         onClick={()=> redirectFunc('https://git-scm.com/')}
                     />
                 </div>

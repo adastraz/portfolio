@@ -142,6 +142,30 @@
 	}
 }
 
+@media screen and (max-width: 1635px){
+    .proj{
+        padding: 100px 25px;
+    }
+}
+
+@media screen and (max-width: 1475px){
+    .schemimg{
+        height: 310px;
+    }
+    .droomimg{
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 1215px){
+    .schemimg{
+        height: 280px;
+    }
+    .droomimg{
+        height: 280px;
+    }
+}
+
 @media screen and (max-width: 1075px){
     .projects{
         flex-direction: column;
