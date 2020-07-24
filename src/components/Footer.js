@@ -18,8 +18,8 @@ const Footer = () => {
             <div className='footer'>
                 <div className='columnfoot'>
                     
-                    <img className='smallgit' onClick={() => redirectFunc('https://github.com/adastraz')} src={Github} />
-                    <img className='linkedin' onClick={() => redirectFunc('https://www.linkedin.com/in/tyler-thompson-461963124/')} src={LinkedIn} />
+                    <img className='smallgit' onClick={() => redirectFunc('https://github.com/adastraz')} src={Github} alt='Github image' />
+                    <img className='linkedin' onClick={() => redirectFunc('https://www.linkedin.com/in/tyler-thompson-461963124/')} src={LinkedIn}  alt='Linkedin image' />
                     
                     <h3 className='txt' onClick={() => mailTo()}>contact me</h3>
                 </div>

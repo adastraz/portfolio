@@ -16,7 +16,7 @@ const Header = () => {
         <>
             <FlexDiv>
                 <div className='name'>
-                    <img src={Boy} onClick={() => redirectFunc('https://www.linkedin.com/in/tyler-thompson-461963124/')}/>
+                    <img src={Boy} alt='Animated boy image' onClick={() => redirectFunc('https://www.linkedin.com/in/tyler-thompson-461963124/')}/>
                 </div>
                 <div className='links'>
                     <Link to='/' 
