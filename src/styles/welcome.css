@@ -153,6 +153,11 @@
     .ptag{
         width: 97.5%
     }
+    .git{
+        width: 125px;
+        height: 125px;
+        margin: -20px 0
+    }
 }
 
 @media screen and (max-width: 455px){
@@ -168,6 +173,6 @@
         margin: 135px 50px 75px 50px
     }
     .git{
-        margin:0px 0px -70px
+        margin:0px 0px -20px
     }
 }
