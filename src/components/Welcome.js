@@ -37,7 +37,7 @@ const Welcome = () => {
             </div>
             <div className='first'>
                 <div className='ptag one'>
-                    <p>I am a developer that is open to new oppertunities, currently based in the east coast. I have experience in product management, and agile team environments.</p>
+                    <p>I am a developer that is open to new opportunities, currently based in the east coast. I have experience in product management, and agile team environments.</p>
                 </div>
                 <div onClick={() => redirectFunc('https://github.com/adastraz')}>
                     <img className='logo git' src={Github} alt='Github image'/>
