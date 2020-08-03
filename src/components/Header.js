@@ -26,13 +26,13 @@ const Header = () => {
                     >
                         Welcome
                     </Link>
-                    <Link to='/blog' 
+                    {/* <Link to='/blog' 
                         className={
                             location.pathname =='/blog' ? 'active' : ''
                         }
                     >
                         Blog
-                    </Link>
+                    </Link> */}
                     <Link to='/projects' 
                         className={
                             location.pathname =='/projects' ? 'active' : ''
