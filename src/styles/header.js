@@ -11,6 +11,6 @@ export const FlexDiv = styled.div`
     background-image: url(${Banner});
     height: 50px;
     background-repeat: no-repeat;
-    background-position: center;
+    // background-position: center;
     background-size: cover
 `

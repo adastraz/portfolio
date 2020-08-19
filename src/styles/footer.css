@@ -4,14 +4,14 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    flex-direction: column
+    flex-direction: column;
 }
 
 .columnfoot{
     display: flex;
     justify-content: space-between;
     width: 30%;
-    margin: -25px 0 30px
+    /* margin: -25px 0 30px */
 }
 
 .smallgit{
@@ -53,5 +53,11 @@
 @media screen and (max-width: 600px){
     .columnfoot{
         width: 65%
+    }
+}
+
+@media screen and (max-width: 500px){
+    .columnfoot{
+        width: 75%
     }
 }
