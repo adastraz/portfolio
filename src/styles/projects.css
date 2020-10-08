@@ -12,7 +12,7 @@
 
 .projects2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: -50px;
     margin-bottom: 80px
 }
@@ -119,11 +119,25 @@
     max-height: 400px;
 }
 
+.socialimg{
+    max-height: 380px
+}
+.socialimg:hover{
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+    margin-bottom: -1.75px;
+}
+.clickMe:hover{
+    color: grey;
+    cursor: pointer;
+}
+
 .schemimg:hover{
     opacity: 1;
 	-webkit-animation: flash 1.5s;
     animation: flash 1.5s;
-    margin-bottom: -8px;
+    margin-bottom: -1.75px;
 }
 
 .droomimg:hover{
@@ -153,6 +167,9 @@
     .proj{
         padding: 100px 25px;
     }
+    .socialimg{
+        height: 330px
+    }
 }
 
 @media screen and (max-width: 1475px){
@@ -171,6 +188,9 @@
     .droomimg{
         height: 280px;
     }
+    .socialimg{
+        height: 250px
+    }
 }
 
 @media screen and (max-width: 1075px){
@@ -179,9 +199,17 @@
         width: 100%;
         align-items: center;
     }
+    .projects2{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
     .proj{
         width: 75%;
         margin-bottom: 10%;
+    }
+    .socialimg{
+        height: 300px
     }
     .schemimg:hover{
         margin-bottom: -7.5px;
@@ -191,6 +219,11 @@
         margin: 20px
     }
     
+}
+@media screen and (max-width: 800px){
+    .socialimg{
+        height: 250px
+    }
 }
 
 @media screen and (max-width: 550px){

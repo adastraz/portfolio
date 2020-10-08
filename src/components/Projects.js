@@ -4,6 +4,8 @@ import Droom from '../styles/pictures/screenshot.188.png'
 import Droom2 from '../styles/pictures/screenshot.187.png'
 import Schematic from '../styles/pictures/screenshot.170.png'
 import Schematic2 from '../styles/pictures/screenshot.185.png'
+import Social from '../styles/pictures/screenshot.209.png'
+import Social2 from '../styles/pictures/screenshot.208.png'
 
 const Projects = () => {
     const redirectFunc = link => {
@@ -54,6 +56,70 @@ const Projects = () => {
                     />
                 </div>
 
+                <div className='proj'>
+                    <h2 className='titlez'>Social Media Clone</h2>
+                    <p className='imp'>Production Time ~ 2 months (Ongoing)</p>
+                    <p className='imp'>Team Size - 1 Member (me!)</p>
+                    <p className='blockt'>
+                        My social media clone was the first project I took on after completing Lambda School. I wanted to see how far I could stretch my abilities to make something as intricate as a social media platform. I want to continue work on this project as long as I am still interested in new features!
+                    </p>
+                    <ul>
+                        <li className='blockt'>Every line of code in this application was written by me!</li>
+                        <li className='blockt clickMe' onClick={() => redirectFunc('https://github.com/adastraz/social-media-be')}>Designed all data schema on the backend using Node.js with Express.js</li>
+                        <li className='blockt'>Managed all forms of state with Redux (no hooks at the moment)</li>
+                    </ul>
+                    <p className='none imp'>This project is still very much a work in progress!</p>
+                    <div className='codeStuff'>
+                        <p 
+                            className='codebuttons application'
+                            onClick={() => redirectFunc('https://developement.d2gyknsnhpxh90.amplifyapp.com/')}
+                        >
+                            Application
+                        </p>
+                        <p 
+                            className='codebuttons code'
+                            onClick={() => redirectFunc('https://github.com/adastraz/social-media-fe')}
+                        >
+                            Code
+                        </p>
+                    </div>
+                    <img 
+                        className='proj2 socialimg' src={Social2} alt='Social media clone project image'
+                        onClick={() => redirectFunc('https://developement.d2gyknsnhpxh90.amplifyapp.com/')}
+                        onMouseOver={e => (e.currentTarget.src='/static/media/screenshot.209.214cb78c.png')}
+                        onMouseOut={e => (e.currentTarget.src='/static/media/screenshot.208.813f9db2.png')}
+                    />
+                </div>
+
+            </div>
+            <div className='projects2'>
+                <div className='proj'>
+                    <h2 className='titlez'>Disney Parent API</h2>
+                    <p className='imp'>Production Time - 1 week</p>
+                    <p className='imp'>Team Size - 5 Members (4 Web, 1 Product Manager)</p>
+                    <p className='blockt'>
+                        Disney Parent makes it so much more affordable to travel inside of Disney parks with your children! Disney Parent allows for users to post their stroller for available pickup, with an attached location based on which ride you left your stroller to be picked up. 
+                    </p>
+                    <ul>
+                        <li className='blockt'>Responsible for complete construction of a Node.js API built with Express.js</li>
+                        <li className='blockt'>Connected the application to a Heroku hosted PostgreSQL server to add data persistance to the API.</li>
+                        <li className='blockt'>Communicated with the front-end team to allow for ease of use while in the development process of the API</li>
+                    </ul>
+                    <div className='codeStuff'>
+                        <p 
+                            className='codebuttons application'
+                            onClick={() => redirectFunc('https://obscure-scrubland-65975.herokuapp.com/')}
+                        >
+                            API
+                        </p>
+                        <p 
+                            className='codebuttons code'
+                            onClick={() => redirectFunc('https://github.com/adastraz/Backend')}
+                        >
+                            Code
+                        </p>
+                    </div>
+                </div>
 
                 <div className='proj'>
                     <h2 className='titlez'>Droom</h2>
@@ -88,35 +154,6 @@ const Projects = () => {
                         onMouseOver={e => (e.currentTarget.src='/static/media/screenshot.187.d1894be3.png')}
                         onMouseOut={e => (e.currentTarget.src='static/media/screenshot.188.2c1c9b80.png')}
                     />
-                </div>
-            </div>
-            <div className='projects2'>
-                <div className='proj'>
-                    <h2 className='titlez'>Disney Parent API</h2>
-                    <p className='imp'>Production Time - 1 week</p>
-                    <p className='imp'>Team Size - 5 Members (4 Web, 1 Product Manager)</p>
-                    <p className='blockt'>
-                        Disney Parent makes it so much more affordable to travel inside of Disney parks with your children! Disney Parent allows for users to post their stroller for available pickup, with an attached location based on which ride you left your stroller to be picked up. 
-                    </p>
-                    <ul>
-                        <li className='blockt'>Responsible for complete construction of a Node.js API built with Express.js</li>
-                        <li className='blockt'>Connected the application to a Heroku hosted PostgreSQL server to add data persistance to the API.</li>
-                        <li className='blockt'>Communicated with the front-end team to allow for ease of use while in the development process of the API</li>
-                    </ul>
-                    <div className='codeStuff'>
-                        <p 
-                            className='codebuttons application'
-                            onClick={() => redirectFunc('https://obscure-scrubland-65975.herokuapp.com/')}
-                        >
-                            API
-                        </p>
-                        <p 
-                            className='codebuttons code'
-                            onClick={() => redirectFunc('https://github.com/adastraz/Backend')}
-                        >
-                            Code
-                        </p>
-                    </div>
                 </div>
             </div>
         </>
